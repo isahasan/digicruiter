@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+$white : #ffffff;
+$off-white : #F8F8F8;
+$black: #1E1E1E;
+$primary: #000000;
+$Green: #35B1A0;
+$Gray-1: #E0E0E0; 
+$Gray-2: #BDBDBD; 
+$Gray-3: #828282;
+$Gray-4: #9398a1;
+$Gray-5: #69737C;
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-style: normal;
+}
+
+body {
+  // position: relative;
+  // overflow-x: hidden;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.6rem;
+  color: var(--black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+figure{
+  height: 100% !important;
+}
+table{
+  width: 100% !important;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:focus-visible {
+  outline: none;
+}
+
+span {
+  display: inline-block;
+}
+
+/* ==input and button type focus & outline style== */
+input[type="text"]:focus,
+input[type="checkbox"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+select:focus {
+  outline: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  // -moz-appearance: textfield;
+}
+input[type="date"],
+input[type="time"]{
+  position: relative;
+}
+// input[type="date"]::-webkit-calendar-picker-indicator {
+//   color: rgba(0, 0, 0, 0);
+//   opacity: 1;
+//   display: block;
+//   background: url(../public/assets/images/icon/calendar-plus.svg) no-repeat;
+//   width: 25px;
+//   height: 25px;
+//   border-width: thin
+// }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+// input[type="date"]::-webkit-calendar-picker-indicator {
+//   position: absolute;
+//   left: 5%;
+// }
+// input::-webkit-datetime-edit-fields-wrapper {
+//   position: relative;
+//   left: 10%;
+// }
+// input::-webkit-datetime-edit {
+//   position: relative;
+//   left: 10%;
+// }
+// input[type="time"]::-webkit-calendar-picker-indicator {
+//   color: rgba(0, 0, 0, 0);
+//   opacity: 1;
+//   display: block;
+//   background: url(../public/assets/images/icon/calender-clock.svg) no-repeat;
+//   width: 25px;
+//   height: 25px;
+//   border-width: thin
+// }
+// input[type="time"]::-webkit-calendar-picker-indicator {
+//   position: absolute;
+//   left: 5%;
+// }
+// input::-webkit-datetime-edit-fields-wrapper {
+//   position: relative;
+//   left: 10%;
+// }
+// input::-webkit-datetime-edit {
+//   position: relative;
+//   left: 10%;
+// }
+
+.btn.focus,
+.btn:focus,
+button:focus,
+button:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+@media (min-width: 1600px) {
+    .col-xxxl-1 {
+      flex: 0 0 auto;
+      width: 8.33333333%;
+    }
+  
+    .col-xxxl-2 {
+      flex: 0 0 auto;
+      width: 16.66666667%;
+    }
+  
+    .col-xxxl-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .col-xxxl-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+  
+    .col-xxxl-5 {
+      flex: 0 0 auto;
+      width: 41.66666667%;
+    }
+  
+    .col-xxxl-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  
+    .col-xxxl-7 {
+      flex: 0 0 auto;
+      width: 58.33333333%;
+    }
+  
+    .col-xxxl-8 {
+      flex: 0 0 auto;
+      width: 66.66666667%;
+    }
+  
+    .col-xxxl-9 {
+      flex: 0 0 auto;
+      width: 75%;
+    }
+  
+    .col-xxxl-10 {
+      flex: 0 0 auto;
+      width: 83.33333333%;
+    }
+  
+    .col-xxxl-11 {
+      flex: 0 0 auto;
+      width: 91.66666667%;
+    }
+  
+    .col-xxxl-12 {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1399.98px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media(max-width: 575.98px) {
+
+}
+  
+
+@import "navbar";
+@import "home";
+@import "footer";
+@import "common";

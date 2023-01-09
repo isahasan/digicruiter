@@ -1,0 +1,26 @@
+.navbar-brand{
+    font-size: 20px;
+    color: #08080888;
+}
+.nav-item {
+    .nav-link{
+        padding: 1.5rem 0.4rem;
+        font-weight: 600;
+        margin: 0 1.4rem;
+
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .serch_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #44444452;
+        border-radius: 5px;
+        padding: 0.9rem;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        background: transparent;
+    }
+}

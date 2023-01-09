@@ -1,0 +1,92 @@
+
+.title {
+    font-size: 75px;
+    text-indent: -100px;
+    padding-left: 100px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+p{
+    color: $Gray-4;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+.section_padding_top {
+    padding-top: 70px;
+}
+.section_padding_bottom {
+    padding-bottom: 70px;
+}
+.section_padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: inherit;
+    bottom: -57px;
+    right: 7px;
+    display: block;
+    width: 26.5px;
+    height: 26.87px;
+    /* padding: 0; */
+    /* transform: translate(0, -50%); */
+    cursor: pointer;
+    color: #BDBDBD;
+    /* outline: none; */
+    background: #BDBDBD;
+    border: 0.433333px solid #E0E0E0;
+    transition:  background-color ease .3s, color ease .3s ;
+    &:hover{
+        border: 0.433333px solid $white;
+        color: $white;
+        background-color: $Green !important;
+    }
+}
+.slick-prev{
+    left: inherit;
+    right: 34px;
+}
+.slick-track{
+    margin:0 -1.2rem;
+    .slick-slide{
+        padding:0 1.2rem;
+    }
+}
+
+.bg_primary{
+    background-color: #69737C;
+    color: #ffffff;
+}
+.bg_Green{
+    background-color: $Green;
+    color: #ffffff;
+}
+.bg_black{
+    background-color: $black;
+    color: #ffffff;
+}
+.bg_white_green{
+    background-color: $white;
+    color: $Green;
+}
+
+.calltoaction {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    display: block;
+    font-weight: 500;
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: $Green;
+}
+.calltoaction:hover {
+    text-decoration: none;
+    color: $Green;
+}
